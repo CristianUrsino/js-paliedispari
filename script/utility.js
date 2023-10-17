@@ -9,7 +9,6 @@ function randomInteger(min,max){
     return Math.floor(Math.random() * (max - min + 1) ) + min;
 }
 
-
 /** *
  *[checkPalindroma] 
  *Presa una stringa controlla se è palindroma (ritorna true) o se non è palindroma (ritorna false)
@@ -28,4 +27,14 @@ function checkPalindroma(_world) {
         j++;
     }
     return true;
+}
+
+/** *
+ *[pari] 
+ *preso un numero controlla che sia pari
+ *@param {number} pari
+ *@returns {boolean} se pari 'true' altrimenti 'false'
+*/
+function pariODispari(x){
+    return (x % 2 === 0) ? true : false;
 }
