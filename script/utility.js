@@ -32,7 +32,7 @@ function checkPalindroma(_world) {
 /** *
  *[pari] 
  *preso un numero controlla che sia pari
- *@param {number} pari
+ *@param {number} x
  *@returns {boolean} se pari 'true' altrimenti 'false'
 */
 function pariODispari(x){
